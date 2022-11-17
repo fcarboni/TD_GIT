@@ -6,8 +6,8 @@ Created on Thu Nov 17 09:38:31 2022
 """
 import random
 class Hunter:
-   degat = random.randrange(1,2)
-   chance = 10
-   fuite = 20
-   prix = 25
+   damage = random.randrange(1,2)
+   luck = 10
+   flee = 20
+   price = 25
    type = "hunter"
