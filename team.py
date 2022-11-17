@@ -27,39 +27,16 @@ class team(ABC): # hériter de ABC(Abstract base class)
     def __init__(self, members):
         self.members = members
         
-    def __len__(self):
-        return len(self)
+    def __len__(self,members):
+        lenght = len(members)
+        return lenght
+        
+        
     
     def __getitem__(self,index):
         return self.members[index]
         
     
-    
-    
-    _members=[]
-    
-    
-    
-    def __init__(self,members):
-        self.members = members
-        
-        
-        
-        
-        
-        
-    def __len__(self):
-        return 
-        
-        
-        
-        
-        
-        
-    def __getitem__(self,index):
-        
-        
-    
-        
-        
-        
+
+
+          
