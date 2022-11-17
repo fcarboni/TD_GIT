@@ -18,10 +18,10 @@ Note : la fonction choice du module random peut vous aider, e.g. random.choice(r
 import random
 class Warrior:
     
-    degat = random.randrange(3,5)
-    chance = 5
-    fuite = 3
-    prix = 10
+    damage = random.randrange(3,5)
+    luck = 5
+    flee = 3
+    price = 10
     type = "warrior"
     
     

@@ -31,8 +31,6 @@ class team(ABC): # hériter de ABC(Abstract base class)
         lenght = len(members)
         return lenght
         
-        
-    
     def __getitem__(self,index):
         return self.members[index]
         
